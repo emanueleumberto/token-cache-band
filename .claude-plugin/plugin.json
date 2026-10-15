@@ -1,7 +1,7 @@
 {
   "name": "token-cache-band",
-  "version": "0.2.0",
-  "description": "Riga sopra il prompt con token consumati e cache (ultimo turno e totale sessione).",
+  "version": "0.5.0",
+  "description": "Riga sopra il prompt con token consumati e cache (ultimo turno e totale sessione) e riempimento del contesto.",
   "author": { "name": "emanueleumberto" },
   "license": "MIT",
   "repository": "https://github.com/emanueleumberto/token-cache-band",

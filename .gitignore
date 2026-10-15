@@ -1,0 +1,5 @@
+# Tipi generati dal motore di Claude Code al caricamento della mod
+.claude-plugin/types/
+node_modules/
+.DS_Store
+Thumbs.db

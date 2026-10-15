@@ -1,0 +1,13 @@
+{
+  "name": "token-cache-band",
+  "description": "Marketplace della mod token-cache-band: banda con token e cache sopra il prompt.",
+  "owner": { "name": "emanueleumberto" },
+  "plugins": [
+    {
+      "name": "token-cache-band",
+      "source": "./",
+      "description": "Riga sopra il prompt con token consumati e cache (ultimo turno e totale sessione).",
+      "author": { "name": "emanueleumberto" }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "token-cache-band",
+  "version": "0.2.0",
+  "description": "Riga sopra il prompt con token consumati e cache (ultimo turno e totale sessione).",
+  "author": { "name": "emanueleumberto" },
+  "license": "MIT",
+  "repository": "https://github.com/emanueleumberto/token-cache-band",
+  "homepage": "https://github.com/emanueleumberto/token-cache-band#readme",
+  "keywords": ["tokens", "cache", "usage", "band"],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "showStatus": {
+      "type": "boolean",
+      "title": "Mostra anche nella barra di stato",
+      "description": "Aggiunge la voce di stato «cache hit % · out» a ogni turno (ripete dati già presenti nella banda).",
+      "default": false
+    },
+    "includeSubagents": {
+      "type": "boolean",
+      "title": "Conta anche i subagenti",
+      "description": "Somma ai totali di sessione i token dei subagenti. «Ultimo turno» resta riferito al thread principale.",
+      "default": false
+    }
+  }
+}
